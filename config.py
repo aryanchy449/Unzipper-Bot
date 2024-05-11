@@ -9,7 +9,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("6931048916:AAEiwn5cej-PVBw95cqsGskW-BEGx95o4jY")
     LOGS_CHANNEL = int(os.environ.get("-1002072662567"))
     BOT_OWNER = int(os.environ.get("6214889840"))
-    MONGODB_URL = os.environ.get("MONGODB_URL")
+    MONGODB_URL = os.environ.get("mongodb+srv://hello:hello@cluster0.s7lxbia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     GOFILE_TOKEN = os.environ.get("ETgJJ7ITuYFdVBSoamumKXuzKtWuKWYb")
     # Optional
     MAX_DOWNLOAD_SIZE = int(os.environ.get("1024*1024*6")) if os.environ.get("MAX_DOWNLOAD_SIZE") else 10737418240
